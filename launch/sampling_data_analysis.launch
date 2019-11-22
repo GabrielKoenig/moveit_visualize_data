@@ -1,0 +1,5 @@
+<launch>
+  <node name="moveit_visualize_data_node" pkg="moveit_visualize_data" type="moveit_visualize_data_node" respawn="false" output="screen">
+      <param name="/planning_plugin" value="ompl_interface/OMPLPlanner"/>
+  </node>
+</launch>
